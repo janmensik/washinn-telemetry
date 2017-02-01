@@ -1,3 +1,6 @@
+// Internal WashInn APi Telemetry code
+// For Autospa CarWash - using Arduino MEGA
+
 #include <SPI.h>
 #include <Ethernet.h>
 
