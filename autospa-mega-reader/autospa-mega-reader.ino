@@ -27,15 +27,15 @@ const unsigned long postingInterval = 5L * 1000L; // delay between updates, in m
 
 #define LED 13
 
-int numberOfBoxes = 2;
+int numberOfBoxes = 4;
 int numberOfPrograms = 5;
-int boxNumbers[2] = {2,3};
-int programs[2] = {0,0};
+int boxNumbers[4] = {1,2,3,4};
+int programs[4] = {0,0,0,0};
 int pinNumbers[2][5] = {
-  /*{22,23,24,25,26},*/ /* BOX 1, program 1-5 */
+  {22,23,24,25,26}, /* BOX 1, program 1-5 */
   {28,29,30,31,32}, /* BOX 2, program 1-5 */
-  {34,35,36,37,38} /*,*/ /* BOX 3, program 1-5 */
-  /*{40,41,42,43,44}*/ /* BOX 4, program 1-5 */
+  {34,35,36,37,38}, /* BOX 3, program 1-5 */
+  {40,41,42,43,44} /* BOX 4, program 1-5 */
 };
 
 int ib;
