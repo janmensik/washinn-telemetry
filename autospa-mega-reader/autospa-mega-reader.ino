@@ -4,8 +4,7 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
-// assign a MAC address for the ethernet controller.
-// fill in your address here:
+// MAC address for ETH controller.
 byte mac[] = {
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
 };
